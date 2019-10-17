@@ -2,7 +2,11 @@
 title: "Index"
 author: "David DeStephano"
 date: "October 17, 2019"
-output: html_document
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+  theme: cerulean
 ---
 
 ```{r setup, include=FALSE}
@@ -11,6 +15,4 @@ knitr::opts_chunk$set(echo = TRUE)
 #Hello! This is David DeStephano's website!
 
 #link:
-![]https://vignette.wikia.nocookie.net/muppet/images/5/5a/Elmo-elmo-elmo.jpg/revision/latest?cb=20110917000614
-
 ![](download.jpg.jpg)
