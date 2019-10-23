@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# This is Dave's awesome website
 
 You can learn about me [here](about.html).
 
