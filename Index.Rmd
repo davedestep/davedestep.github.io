@@ -1,4 +1,33 @@
 ---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+You can learn about me [here](about.html).
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Let's add some links
+
+
+I often use [google](https://www.google.com) to do **data science**. 
+
+
+## let's add an image
+
+here's my cat:
+
+
+
+
+
+
+
 title: "Index"
 author: "David DeStephano"
 date: "October 17, 2019"
@@ -6,15 +35,12 @@ output:
   html_document:
   toc: true
   toc_float: true
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 #Hello! This is David DeStephano's website!
 
 #link:
-![](download.jpg.jpg)
+#![]
+#(download.jpg.jpg)
 
 
 
