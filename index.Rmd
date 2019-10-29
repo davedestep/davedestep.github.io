@@ -1,0 +1,67 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Dave's awesome website
+ 
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Let's add some links
+
+
+I often use [google](https://www.google.com) to do **data science**. 
+
+
+## let's add an image
+
+here's my cat:
+
+
+
+<<<<<<< HEAD:Index.Rmd
+=======
+
+
+
+
+title: "Index"
+author: "David DeStephano"
+date: "October 17, 2019"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+
+#Hello! This is David DeStephano's website!
+
+#link:
+#![]
+#(download.jpg.jpg)
+
+
+
+
+
+
+#old yml
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<you@youremail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/davedestep/
+output:
+  html_document:
+  
+    theme: cerulean
+>>>>>>> 96e57e406c82d37ad81e596cf43e46e8bab72a7c:index.Rmd
