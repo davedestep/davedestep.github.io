@@ -1,0 +1,8 @@
+---
+title: "resume"
+author: "David DeStephano"
+date: "October 29, 2019"
+output: html_document
+---
+
+https://github.com/davedestep/davedestep.github.io/commits/master/Resume%20David%20DeStephano.pdf

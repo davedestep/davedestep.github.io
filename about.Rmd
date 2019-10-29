@@ -10,6 +10,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+
+![](https://github.com/davedestep/davedestep.github.io/raw/master/Resume%20David%20DeStephano.pdf)
+
+
+
+
+
+
 David DeStephano
 dd2948@cumc.columbia.edu (904)-303-2059
 Education:
