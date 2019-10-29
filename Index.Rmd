@@ -7,7 +7,7 @@ output:
 ---
 
 # This is Dave's awesome website
-
+ 
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
@@ -23,42 +23,3 @@ here's my cat:
 
 
 
-
-
-
-
-title: "Index"
-author: "David DeStephano"
-date: "October 17, 2019"
-output: 
-  html_document:
-  toc: true
-  toc_float: true
-
-#Hello! This is David DeStephano's website!
-
-#link:
-#![]
-#(download.jpg.jpg)
-
-
-
-
-
-
-#old yml
-name: "Yay internet!"
-output_dir: "."
-navbar:
-  title: "Home"
-  right:
-    - text: "About"
-      href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/davedestep/
-output:
-  html_document:
-  
-    theme: cerulean
