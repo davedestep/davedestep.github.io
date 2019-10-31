@@ -1,25 +1,19 @@
 ---
-title: "My awesome website"
+title: "David DeStephano's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Dave's awesome website
- 
+# Welcome to Dave's website!
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-# Let's add some links
+![](haloween.png)
 
 
-I often use [google](https://www.google.com) to do **data science**. 
+My name is Dave I am in my second year of graduate school, where I am studying epidemiology and biostatistics. I currently work at Columbia University Medical Center in the Department of Anesthesiology. 
 
+![](banner-columbia-banner.jpg)
 
-## let's add an image
-
-here's my cat:
-
-
-
+I live in Harlem and have lived in New York City for two years, but I am originally from Florida.
+![](jax.jpg)
