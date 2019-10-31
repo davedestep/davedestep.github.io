@@ -1,0 +1,57 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Orders by aisle
+
+```{r warning=FALSE}
+data("instacart")
+
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n,  type = "bar", color = ~aisle)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Mean days since last order by department
+
+```{r warning=FALSE}
+
+instacart %>% 
+  group_by(department) %>% 
+  summarize(mean=mean(days_since_prior_order)) %>% 
+  mutate(department = fct_reorder(department, mean)) %>% 
+  plot_ly(x = ~department, y = ~mean,  type = "scatter", color = ~department)
+
+```
+
+### Time of the day for each department
+
+```{r warning=FALSE}
+  instacart %>% 
+  plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department, type = "box")
+```
+

@@ -7,14 +7,14 @@ navbar:
       href: about.html
     - text: Examples
       menu:
-      - text: "Plotly"
-        href: plotly.html
       - text: "Dashboard"
         href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<dd2948@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/davedestep/
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/david-destephano/
 output:
   html_document:
     theme: journal

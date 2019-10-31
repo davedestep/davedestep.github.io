@@ -1,6 +1,5 @@
 ---
 title: "David DeStephano"
-author: "David DeStephano"
 output: html_document
 ---
 
