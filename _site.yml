@@ -19,4 +19,6 @@ navbar:
       href: https://www.linkedin.com/in/david-destephano/
 output:
   html_document:
-    theme: journal
+    theme: flatly
+    
+  #flatly

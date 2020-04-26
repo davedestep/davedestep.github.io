@@ -7,12 +7,21 @@ output:
 ---
 
 
+
 ![](haloween.png)
+
+<br />
 
 
 My name is Dave I am in my second year of graduate school, where I am studying epidemiology and biostatistics. I currently work at Columbia University Medical Center in the Department of Anesthesiology. 
 
+
 ![](banner-columbia-banner.jpg)
 
+
+<br />
+
 I live in Harlem and have lived in New York City for two years, but I am originally from Florida.
+
+
 ![](jax.jpg)
