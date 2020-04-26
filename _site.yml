@@ -10,7 +10,7 @@ navbar:
       - text: "Dashboard"
         href: dashboard.html
       - text: "Beijing Air Quality Project"
-        href: Airqual.html
+        href: https://davedestep.github.io/p8105-Final-Project/
     - icon: fa-envelope fa-lg
       href: mailto:<dd2948@cumc.columbia.edu>
     - icon: fa-github fa-lg
